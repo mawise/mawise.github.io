@@ -1,0 +1,16 @@
+<html><head>
+<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.9.0/dist/altspace.min.js"></script>
+
+</head><body>
+<!-- set up the scene -->
+<a-scene altspace='vertical-align: bottom; fullspace: true'>
+
+<a-assets>
+    <a-asset-item id="pawn-obj" src="pawn.obj"></a-asset-item>
+  </a-assets>
+
+<a-entity obj-model="obj: #pawn-obj" material="color: red"></a-entity>
+
+<!--    <a-sphere position='0 1.6 -2' color='black' radius='1'></a-sphere>  -->
+</a-scene></body></html>
