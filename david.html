@@ -1,0 +1,15 @@
+<html><head>
+<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.9.0/dist/altspace.min.js"></script>
+
+</head><body>
+<!-- set up the scene -->
+<a-scene altspace='vertical-align: bottom; fullspace: true'>
+
+  <a-assets>
+    <a-asset-item id="pawn-obj" src="assets/low-poly-david-meters.obj"></a-asset-item>
+  </a-assets>
+
+<a-entity obj-model="obj: #pawn-obj" material="color: white" rotation="0 90 0" ></a-entity> 
+
+</a-scene></body></html>
